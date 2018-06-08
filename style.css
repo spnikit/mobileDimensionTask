@@ -1,0 +1,52 @@
+
+
+/* task #5 */
+[data-role="buttons"] > button + button:not(:last-of-type){
+    background-color: red;
+  }
+  
+  
+  /* task #6*/
+  table {
+    border-spacing: 0;
+    background-color: yellow;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  tr {
+    padding-left: 10px;
+  }
+  
+  th::after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid red;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  
+  /* task #7 */
+  .button {
+    padding: .2em 1.2em;
+    border-radius: .8em;
+  }
+  
+  .button--success {
+    background-color: #2f5926;
+    color: #fff;
+  }
+  
+  .button--danger {
+    background-color: #a92323;
+    color: #fff;
+  }
+  
+  .button--small {
+    font-size: .6rem;
+  }
+  
+  .button--large {
+    font-size: 1.2rem;
+  }
